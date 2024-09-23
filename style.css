@@ -16,6 +16,11 @@
     padding-left: 25px;
     padding-right: 25px;
     cursor: pointer;
+    width: 15vw;
+    height: 15vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cell:hover {

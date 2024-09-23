@@ -1,6 +1,7 @@
 export { init, writeToCell, readFromCell, dump };
 
-const grid =[[],[],[]]
+// const grid =[[],[],[""]]
+const grid =[[0,0,0],[0,0,0],[0,0,0]]
 // const grid =[[1,2,3],[4,5,6],[7,8,9]]
 
 function init() {
@@ -17,6 +18,9 @@ function readFromCell(row, col) {
 }
 
 function dump() {
-    console.log("Grid:",grid);
-    
+    // console.log("Grid:",grid);
+    for (const row of grid) {
+        console.log(row);
+        
+    }
 }
