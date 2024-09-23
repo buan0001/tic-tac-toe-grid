@@ -18,9 +18,12 @@ function readFromCell(row, col) {
 }
 
 function dump() {
+
+    console.table(grid)
     // console.log("Grid:",grid);
-    for (const row of grid) {
-        console.log(row);
+    // grid.ever
+    // for (const row of grid) {
+    //     console.log(row);
         
-    }
+    // }
 }
