@@ -1,0 +1,72 @@
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    gap: 0.5em;
+    background-color: white;
+    border: 5px black solid;
+    padding: 20px;
+}
+
+.cell {
+    background-color: rgb(92, 176, 228);
+    color: pink;
+    border: 5px green outset;
+    font-size: 100px;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: rgb(29, 186, 29);
+    color: rgb(249, 82, 110);
+    border: 5px rgb(9, 238, 9) solid;
+    font-size: 100px;
+    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
+    transform: scale(1.07);
+    cursor: pointer;
+}
+
+body {
+    display: grid;
+    justify-content: center;
+    background-color: rgb(99, 167, 99);
+}
+
+h1 {
+    display: grid;
+    justify-self: center;
+}
+
+/* #board{
+    display: grid;
+    grid-template-columns: repeat(3, max-content);
+    gap: 0.5em;
+    border: grey 5px outset;
+    background-color: white;
+}
+
+.cell{
+    display: flex;
+    font-size: 100px;
+    border:  black 5px solid;
+    background-color: rgb(228, 249, 196);
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    padding: 20px;
+    margin: 5px;
+
+    width: 64px;
+
+    cursor: pointer;
+}
+
+body{
+    display: grid;
+    justify-content: center;
+    background-color: rgba(236, 123, 123, 0.5);
+} */
